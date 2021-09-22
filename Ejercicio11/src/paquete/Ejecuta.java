@@ -14,7 +14,7 @@ public class Ejecuta {
 				año de nacimiento.
 			 */
 		
-		
+	
 
 		String nombre, nombreMenor= "";
 		int anoNacimiento;
