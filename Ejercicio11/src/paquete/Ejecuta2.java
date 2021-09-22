@@ -49,6 +49,10 @@ public class Ejecuta2 {
 			menor = edad;
 			nombreMenor= nombre;
 			}
+			
+			System.out.println("Introduce nombre");
+			nombre= sc.nextLine();
+
 		}
 			
 		sc.close();
@@ -57,5 +61,7 @@ public class Ejecuta2 {
 		media= (float)suma/contEdad;		
 		System.out.println("La edad media de los alumno es : " + media + " y el alumno menor es: " + nombreMenor + " que tiene " + menor);
 		}
+		
+		//Fin del programa
 	}
 }
